@@ -9,8 +9,8 @@ const Card_character = ({character}) => {
         <div className="body-card">
             <div className="body-text">
                 <ul>
-                    <li><span>Name: </span>{character[2].name}</li>
-                    <li><span>Description: </span>{character[2].description}</li>
+                    <li><span>Name: </span>{character[2]?.name}</li>
+                    <li><span>Description: </span>{character[2]?.description}</li>
                 </ul>
             </div>
         </div>

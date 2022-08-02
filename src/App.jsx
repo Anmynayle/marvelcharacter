@@ -14,6 +14,7 @@ import Card_character from './assets/componets/Card_character'
 function App() {
 
   const [character, setCharacter] = useState([])
+ 
   
   useEffect (()=>{
     axios.get('https://gateway.marvel.com:443/v1/public/characters?ts=1&apikey=195ba63017e35e99119358fa915e70c0&hash=f985a8b7531eeffb721c3da8523f190b')
