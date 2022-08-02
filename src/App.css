@@ -12,11 +12,30 @@
     align-items: center;
 }
 .card{
+    padding: 50px 0;
     width: 300px;
-    height: 300px;
     border: 1px solid black;
     border-radius: 10px;
+
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 30px;
+}
+
+img{
+    width: 250px;
+}
+
+ul li {
+    padding: 7px 20px;
+    list-style: none;
+    ;
+    text-align: justify;
+    font-size: 18px;
+}
+
+ul li span {
+    font-weight: bold;
 }

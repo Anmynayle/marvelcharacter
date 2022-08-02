@@ -24,11 +24,10 @@ function App() {
   },[])
   
   
-  console.log(character)
+  //console.log(character)
 
   return (
     <div className="App">
-    <h1>Marvel</h1> 
     <Card_character character={character} /> 
     </div>
   )
