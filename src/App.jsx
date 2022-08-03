@@ -13,7 +13,9 @@ import Card_character from './assets/componets/Card_character'
 
 function App() {
 
+
   const [character, setCharacter] = useState([])
+
  
   
   useEffect (()=>{
@@ -25,11 +27,17 @@ function App() {
   },[])
   
   
+  
+  
   //console.log(character)
-
+  
   return (
     <div className="App">
-    <Card_character character={character} /> 
+      <Card_character character={character}  /> 
+      <Card_character character={character}  /> 
+      <Card_character character={character}  /> 
+      <Card_character character={character}  /> 
+      <Card_character character={character}  /> 
     </div>
   )
 }
